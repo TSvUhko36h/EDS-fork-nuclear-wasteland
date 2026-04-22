@@ -299,40 +299,35 @@
 - type: startingGear
   id: ThunderdomeNeck6
   equipment:
-    neck: ClothingNeckScarfBlueshield
+    neck: ClothingNeckOldClothWrap
 
 - type: startingGear
   id: ThunderdomeNeck7
   equipment:
-    neck: ClothingNeckOldClothWrap
+    neck: ClothingNeckCloakCentcomBlack
 
 - type: startingGear
   id: ThunderdomeNeck8
   equipment:
-    neck: ClothingNeckCloakCentcomBlack
+    neck: ClothingNeckMantleHOSShoulder
 
 - type: startingGear
   id: ThunderdomeNeck9
   equipment:
-    neck: ClothingNeckMantleHOSShoulder
+    neck: ClothingNeckMantleERTLeader
 
 - type: startingGear
   id: ThunderdomeNeck10
   equipment:
-    neck: ClothingNeckMantleERTLeader
+    neck: ClothingNeckCloakAdmin
 
 - type: startingGear
   id: ThunderdomeNeck11
   equipment:
-    neck: ClothingNeckCloakAdmin
-
-- type: startingGear
-  id: ThunderdomeNeck12
-  equipment:
     neck: ClothingNeckOldClothWrap
 
 - type: startingGear
-  id: ThunderdomeNeck13
+  id: ThunderdomeNeck12
   equipment:
     neck: ClothingNeckChameleon
 

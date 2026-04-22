@@ -191,41 +191,36 @@
           category: thunderdome-category-neck
           sprite: ClothingNeckCloakSanabi
         - gear: ThunderdomeNeck6
-          name: thunderdome-loadout-neck-blueshield
-          description: thunderdome-desc-neck-blueshield
-          category: thunderdome-category-neck
-          sprite: ClothingNeckScarfBlueshield
-        - gear: ThunderdomeNeck7
           name: thunderdome-loadout-neck-oldmantle
           description: thunderdome-desc-neck-oldmantle
           category: thunderdome-category-neck
           sprite: ClothingNeckOldClothWrap
-        - gear: ThunderdomeNeck8
+        - gear: ThunderdomeNeck7
           name: thunderdome-loadout-neck-specops
           description: thunderdome-desc-neck-specops
           category: thunderdome-category-neck
           sprite: ClothingNeckCloakCentcomBlack
-        - gear: ThunderdomeNeck9
+        - gear: ThunderdomeNeck8
           name: thunderdome-loadout-neck-gsb
           description: thunderdome-desc-neck-gsb
           category: thunderdome-category-neck
           sprite: ClothingNeckMantleHOSShoulder
-        - gear: ThunderdomeNeck10
+        - gear: ThunderdomeNeck9
           name: thunderdome-loadout-neck-ertleader
           description: thunderdome-desc-neck-ertleader
           category: thunderdome-category-neck
           sprite: ClothingNeckMantleERTLeader
-        - gear: ThunderdomeNeck11
+        - gear: ThunderdomeNeck10
           name: thunderdome-loadout-neck-vox
           description: thunderdome-desc-neck-vox
           category: thunderdome-category-neck
           sprite: ClothingNeckCloakAdmin
-        - gear: ThunderdomeNeck12
+        - gear: ThunderdomeNeck11
           name: thunderdome-loadout-neck-bandage
           description: thunderdome-desc-neck-bandage
           category: thunderdome-category-neck
           sprite: ClothingNeckOldClothWrap
-        - gear: ThunderdomeNeck13
+        - gear: ThunderdomeNeck12
           name: thunderdome-loadout-neck-chameleon
           description: thunderdome-desc-neck-chameleon
           category: thunderdome-category-neck
