@@ -80,3 +80,79 @@
   - type: ShipGunClass
     shipClass: Heavy
 
+#Morhpo
+
+- type: entity
+  id: WeaponShuttleKineticMorhpo
+  name: M800 Morhpo
+  parent: BallisticArtilleryUnanchorable
+  description: Zdes Mogla Bit Vasha Reklama
+  components:
+  - type: StaticPrice
+    price: 800000
+  - type: Sprite
+    sprite: _Nuclear/Objects/ShuttleWeapons/morhpo.rsi
+    layers:
+    - state: morhpo
+    scale: 3, 3
+  - type: Appearance
+  - type: AmmoCounter
+  - type: Battery
+    maxCharge: 400000
+    startingCharge: 400000
+  - type: ExaminableBattery
+  - type: WirelessNetworkConnection
+    range: 500
+  - type: Gun
+    fireRate: 0.05
+    projectileSpeed: 300
+    soundGunshot:
+      path: /Audio/_Mono/Weapons/Guns/Gunshots/leviathan_fire.ogg
+    soundEmpty:
+      path: /Audio/Weapons/Guns/EmptyAlarm/smg_empty_alarm.ogg
+  - type: BatterySelfRecharger
+    autoRecharge: true
+    autoRechargeRate: 350
+  - type: SpaceArtillery
+    powerChargeRate: 350
+    powerUsePassive: 1000
+    powerUseActive: 7500
+  - type: Actions
+  - type: ProjectileBatteryAmmoProvider
+    proto: ShipRailgunProjectileMorpho
+    fireCost: 100000 
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeAabb
+          bounds: "-0.5,-0.5,0.5,0.5"
+        density: 1500
+        mask:
+        - MachineMask
+        layer:
+        - MachineLayer
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 6000
+      behaviors:
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+    - trigger:
+        !type:DamageTrigger
+        damage: 1500
+      behaviors:
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+      - !type:PlaySoundBehavior
+        sound:
+          collection: MetalBreak
+  - type: RadarBlip
+    radarColor: "#CF0E0E"
+    scale: 4
+  - type: ShipGunType
+    shipType: Ballistic
+  - type: ShipGunClass
+    shipClass: Heavy

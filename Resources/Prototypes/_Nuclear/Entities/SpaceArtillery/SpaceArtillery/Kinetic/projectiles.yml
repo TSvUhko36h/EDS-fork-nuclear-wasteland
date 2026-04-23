@@ -39,3 +39,82 @@
     intensitySlope: 8
     maxIntensity: 168000
   - type: GatheringProjectile
+
+- type: entity
+  id: ShipRailgunProjectileBMEMP
+  name: ent-ShipRailgunProjectileBMEMP
+  parent: BaseBulletTrigger
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Projectile
+    damage:
+      types:
+        Structural: 30000
+        Blunt: 7500
+        Heat: 3000
+        Ion: 7500
+  - type: Sprite
+    sprite: Objects/Weapons/Guns/Projectiles/projectiles_tg.rsi
+    layers:
+    - state: omnilaser
+  - type: Ammo
+    muzzleFlash: null
+  - type: ShipWeaponProjectile
+  - type: RadarBlip
+    radarColor: "#0061cf"
+    scale: 10
+    requireNoGrid: true
+    shape: triangle
+  - type: TimedDespawn
+    lifetime: 12
+  - type: PointLight
+    color: "#19AFFF"
+  - type: ExplodeOnTrigger
+  - type: Explosive
+    explosionType: PowerSink
+    totalIntensity: 1600
+    intensitySlope: 8
+    maxIntensity: 1600
+  - type: EmpOnTrigger
+    range: 250
+    energyConsumption: 2700000
+    disableDuration: 45
+  - type: GatheringProjectile
+
+# Morpho
+- type: entity
+  id: ShipRailgunProjectileMorpho
+  name: ent-ShipRailgunProjectileMorpho
+  parent: BaseBulletTrigger
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Projectile
+    damage:
+      types:
+        Structural: 300000
+        Blunt: 75000
+        Heat: 30000
+        Ion: 75000
+  - type: Sprite
+    sprite: Objects/Weapons/Guns/Projectiles/projectiles_tg.rsi
+    layers:
+    - state: omnilaser
+  - type: Ammo
+    muzzleFlash: null
+  - type: ShipWeaponProjectile
+  - type: RadarBlip
+    radarColor: "#CF0E0E"
+    scale: 12
+    requireNoGrid: true
+    shape: triangle
+  - type: TimedDespawn
+    lifetime: 5
+  - type: PointLight
+    color: "#19AFFF"
+  - type: ExplodeOnTrigger
+  - type: Explosive
+    explosionType: PowerSink
+    totalIntensity: 4600000
+    intensitySlope: 6
+    maxIntensity: 4600000
+  - type: GatheringProjectile

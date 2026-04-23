@@ -9,6 +9,7 @@ thunderdome-loadout-subtitle = Выбери свой комплект оружи
 thunderdome-loadout-confirm = Зайти на арену
 thunderdome-loadout-base-gear = Базовое снаряжение: пистолет Mk58 + магазин, вспышка в РПС, сам РПС
 
+
 # Weapon categories
 thunderdome-category-shotguns = Дробовики
 thunderdome-category-smgs = Пистолеты-пулемёты
@@ -17,6 +18,7 @@ thunderdome-category-revolvers = Револьверы
 thunderdome-category-snipers = Снайперские винтовки
 thunderdome-category-melee = Рукопашное
 thunderdome-category-lasers = Лазеры
+
 
 # Weapon names
 thunderdome-loadout-shotgun = Каммерер
@@ -152,18 +154,21 @@ thunderdome-desc-backpack-satchel = Компактная сумка
 thunderdome-desc-backpack-leather = Стильная кожаная сумка
 thunderdome-desc-backpack-duffel = Большой вещмешок
 
-# Kill streak announcements
-thunderdome-streak-3 = Серия убийств!
-thunderdome-streak-5 = Зверь!
-thunderdome-streak-7 = Маньяк!
-thunderdome-streak-10 = БЕСПОЩАДНЫЙ!
 
+# Kill streak announcements
+thunderdome-streak-3 = { $player } совершил серию убийств!
+thunderdome-streak-4 = { $player } доминирует!
+thunderdome-streak-5 = { $player } совершил Мега Убийство!
+thunderdome-streak-6 = { $player } Беспощаден!
+thunderdome-streak-7 = { $player } Ужасен!
+thunderdome-streak-8 = { $player } Монстр!
+thunderdome-streak-9 = { $player } БОЖЕСТВЕННЫЙ!
+thunderdome-streak-12 = { $player } ВЫШЕ БОГОВ!
 # Revival
 thunderdome-revival-title = Тело Воскрешено
 thunderdome-revival-offer = Ваше первоначальное тело восстановлено! Вернётесь в него?
 thunderdome-revival-accept = Вернуться в тело
 thunderdome-revival-decline = Остаться на арене
-
 # Chat / messages
 thunderdome-join = { $player } вошёл на Грозовой ринг!
 thunderdome-leave = { $player } покинул Грозовой ринг.
@@ -177,3 +182,4 @@ ent-WeaponLaserCarbineAutoRecharge = лазерный карабин
     .desc = Эргономичный лазерный карабин с самозаряжающейся ядерной батареей. Идеален для продолжительного боя.
 ent-WeaponSniperLaser = лазерная снайперская винтовка
     .desc = Мощная лазерная снайперская винтовка с самозаряжающимся энергоблоком. Наносит разрушительные точные выстрелы.
+

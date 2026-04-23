@@ -1,0 +1,15 @@
+﻿{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "Made by t26e5 (discord)",
+  "size": {
+    "x": 96,
+    "y": 96
+  },
+  "states": [
+    {
+      "name": "morhpo",
+      "directions": 4
+    }
+  ]
+}

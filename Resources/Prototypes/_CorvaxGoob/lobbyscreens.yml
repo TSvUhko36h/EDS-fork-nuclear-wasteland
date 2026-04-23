@@ -220,29 +220,29 @@
   name: "Спасение"
   artist: "phelcka"
 
-- type: lobbyBackground
-  id: NewYearComfort
-  background: /Textures/_CorvaxGoob/LobbyScreens/new-year-comfort.webp
-  name: "Новогодний уют"
-  artist: "gasper_horned"
+# type: lobbyBackground
+# id: NewYearComfort
+# background: /Textures/_CorvaxGoob/LobbyScreens/new-year-comfort.webp
+# name: "Новогодний уют"
+# artist: "gasper_horned"
 
-- type: lobbyBackground
-  id: NewYearParty
-  background: /Textures/_CorvaxGoob/LobbyScreens/new-year-party.webp
-  name: "Новгодняя вечеринка"
-  artist: "thevictorplumber"
+# type: lobbyBackground
+# id: NewYearParty
+# background: /Textures/_CorvaxGoob/LobbyScreens/new-year-party.webp
+# name: "Новгодняя вечеринка"
+# artist: "thevictorplumber"
 
-- type: lobbyBackground
-  id: NewYearPine
-  background: /Textures/_CorvaxGoob/LobbyScreens/new-year-pine.webp
-  name: "Новогодняя ёлка из труб"
-  artist: "kawoshechka"
+# type: lobbyBackground
+# id: NewYearPine
+# background: /Textures/_CorvaxGoob/LobbyScreens/new-year-pine.webp
+# name: "Новогодняя ёлка из труб"
+# artist: "kawoshechka"
 
-- type: lobbyBackground
-  id: NewYearExplosion
-  background: /Textures/_CorvaxGoob/LobbyScreens/new-year-explosion.webp
-  name: "Новогодний взрыв"
-  artist: "_mosley_"
+#- type: lobbyBackground
+# id: NewYearExplosion
+# background: /Textures/_CorvaxGoob/LobbyScreens/new-year-explosion.webp
+# name: "Новогодний взрыв"
+# artist: "_mosley_"
 
 - type: lobbyBackground
   id: SpaceNuke
@@ -256,11 +256,11 @@
   name: "Пингвины!"
   artist: "gasper_horned"
 
-- type: lobbyBackground
-  id: NewYearNuke
-  background: /Textures/_CorvaxGoob/LobbyScreens/new-year-nuke.webp
-  name: "Новогодняя ядерка"
-  artist: "vladimir.s"
+# type: lobbyBackground
+# id: NewYearNuke
+# background: /Textures/_CorvaxGoob/LobbyScreens/new-year-nuke.webp
+# name: "Новогодняя ядерка"
+# artist: "vladimir.s"
 
 - type: lobbyBackground
   id: ArnoldIntelligence
@@ -286,17 +286,17 @@
   name: "Инженеры против зомби"
   artist: "ukrainianlad"
 
-- type: lobbyBackground
-  id: SillyIsland
-  background: /Textures/_CorvaxGoob/LobbyScreens/silly-island.webp
-  name: "Силли"
-  artist: "alexsandr_the_great2"
+# type: lobbyBackground
+# id: SillyIsland
+# background: /Textures/_CorvaxGoob/LobbyScreens/silly-island.webp
+# name: "Силли"
+# artist: "alexsandr_the_great2"
 
-- type: lobbyBackground
-  id: EchoTeam
-  background: /Textures/_CorvaxGoob/LobbyScreens/echo-team.webp
-  name: "Эхо эха"
-  artist: "ukrainianlad"
+# type: lobbyBackground
+# id: EchoTeam
+# background: /Textures/_CorvaxGoob/LobbyScreens/echo-team.webp
+# name: "Эхо эха"
+# artist: "ukrainianlad"
 
 - type: lobbyBackground
   id: YouAreNotFunny
@@ -421,5 +421,21 @@
 - type: lobbyBackground
   id: AwesomeShuttle
   background: /Textures/_CorvaxGoob/LobbyScreens/awesome-shuttle.webp
-  name: "Замечательный шаттл"
-  artist: "qulezza"
+
+- type: lobbyBackground  
+  id: EvacQul  
+  background: /Textures/_CorvaxGoob/LobbyScreens/evac-qul.webp  
+  name: "Эвакуация"  
+  artist: qulezza
+
+- type: lobbyBackground  
+  id: HereticQul  
+  background: /Textures/_CorvaxGoob/LobbyScreens/heretic-qul.webp  
+  name: "Культист"  
+  artist: qulezza
+
+- type: lobbyBackground  
+  id: AfterNewYear  
+  background: /Textures/_CorvaxGoob/LobbyScreens/after-new-year.webp  
+  name: "После нового года"  
+  artist: "Сообщество художников"
